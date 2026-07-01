@@ -1,10 +1,17 @@
 .git
 .gitignore
 
-.idea
-.vscode
+bin/
+build/
+dist/
 
-bin
-tmp
+.env
 
-*.exe
+tests/
+**/*_test.go
+
+.idea/
+.vscode/
+
+Dockerfile*
+docker-compose*.yml
