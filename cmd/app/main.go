@@ -11,7 +11,6 @@ import (
 )
 
 func main() {
-
 	cfg := config.Load()
 
 	db := database.New(cfg)
